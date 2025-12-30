@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background:#333;
+    color:rgb(212, 202, 202);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+}
+
+header .logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+header nav a{
+    color:rgb(204, 184, 184);
+    margin-left:15px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:40px;
+    background:#f5f5f5;
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h2{
+    margin-bottom:15px;
+}
+
+.hero-text button{
+    margin-top:15px;
+    padding:10px 20px;
+    background:orange;
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+
+.cards{
+    padding:40px;
+}
+
+.cards h2{
+    margin-bottom:20px;
+}
+
+.card-box{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    background:#f2f2f2;
+    padding:20px;
+    width:33%;
+}
+
+.card .img{
+    background:#333;
+    height:150px;
+    margin-bottom:15px;
+}
+
+.card button{
+    margin-top:10px;
+    padding:8px 15px;
+    background:orange;
+    border:none;
+    color:white;
+}
+
